@@ -1,0 +1,6 @@
+content = open('main.py', 'r', encoding='utf-8').read() 
+content = content.replace(u'\u2713', 'OK') 
+content = content.replace(u'\u2192', '-') 
+content = content.replace(u'\u2714', 'OK') 
+open('main.py', 'w', encoding='utf-8').write(content) 
+print('Fixed!') 

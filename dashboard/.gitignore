@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+venv/
+*.egg-info/
+
+# Data & Models (these are large — don't upload)
+data/
+*.pt
+*.pth
+*.pkl
+*.h5
+datasets/
+
+# Logs & outputs
+logs/
+outputs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# MongoDB
+*.db
